@@ -4,7 +4,7 @@ phases:
         commands:
         - echo "Enter the pre-build"
     build:
-        commands"
+        commands:
         - echo "Enter Build Ph"
         - mvn clean prepare-pakage war:explode
     post-build:
