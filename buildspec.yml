@@ -6,10 +6,3 @@ phases:
     build:
         commands:
         - echo "Enter Build Ph"
-    post_build:
-        commands:
-        - echo "Enter post build"
-        - mv target/deploy ./ 
-artifacts:
-       files:
-         - deploy/**/*
